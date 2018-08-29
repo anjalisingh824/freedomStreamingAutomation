@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="IncidentDashboardSuite">
+    <test name="Regression Suite 1" preserve-order="true">
+        <classes>
+            <class name="freedom.automation.testCases.TC_AdminsAddSearchEditDelete"/>
+        </classes>
+    </test>
+    <test name="Regression Suite 2" preserve-order="true">
+        <classes>
+            <class name="freedom.automation.testCases.TC_AdminsEnableDisableScenario"/>
+        </classes>
+    </test>
+     <test name="Regression Suite 3" preserve-order="true">
+        <classes>
+            <class name="freedom.automation.testCases.TC_AdminsNegativeScenario"/>
+        </classes>
+    </test>
+    
+</suite>
